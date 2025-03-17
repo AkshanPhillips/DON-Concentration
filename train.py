@@ -155,7 +155,7 @@ def optimize_hyperparameters(X, y, n_trials=20):
 
 if __name__ == "__main__":
     from data_processing import load_and_preprocess_data, augment_data
-    file_path = "/home/geekbull/Downloads/MLE-Assignment - MLE-Assignment.csv"
+    file_path = "MLE-Assignment - MLE-Assignment.csv"
     X, y, _, _ = load_and_preprocess_data(file_path)
     X_aug, y_aug = augment_data(X, y)
     
