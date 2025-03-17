@@ -17,7 +17,7 @@ logger = logging.getLogger(__name__)
 def test_full_pipeline():
     """Runs an end-to-end test of the full CNN pipeline with comparison."""
     print("Loading and preprocessing data...")
-    file_path = "/home/geekbull/Downloads/MLE-Assignment - MLE-Assignment.csv"
+    file_path = "MLE-Assignment - MLE-Assignment.csv"
     X, y, _, df = load_and_preprocess_data(file_path)
     
     visualize_data(df)
